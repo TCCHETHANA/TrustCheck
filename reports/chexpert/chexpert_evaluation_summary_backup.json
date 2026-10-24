@@ -1,0 +1,166 @@
+{
+  "dataset": "CheXpert sample from Kaggle",
+  "images_requested": 100,
+  "images_evaluated": 100,
+  "images_with_errors": 0,
+  "class_counts_evaluated": {
+    "NORMAL_LIKE": 50,
+    "PNEUMONIA": 50
+  },
+  "original_model_metrics": {
+    "sample_count": 100,
+    "correct_predictions": 61,
+    "accuracy": 0.61,
+    "confusion_matrix": {
+      "NORMAL_LIKE": {
+        "NORMAL_LIKE": 15,
+        "PNEUMONIA": 35
+      },
+      "PNEUMONIA": {
+        "NORMAL_LIKE": 4,
+        "PNEUMONIA": 46
+      }
+    },
+    "per_class_metrics": {
+      "NORMAL_LIKE": {
+        "precision": 0.7895,
+        "recall": 0.3,
+        "f1_score": 0.4348,
+        "support": 50
+      },
+      "PNEUMONIA": {
+        "precision": 0.5679,
+        "recall": 0.92,
+        "f1_score": 0.7023,
+        "support": 50
+      }
+    }
+  },
+  "metrics_by_variation": {
+    "original": {
+      "sample_count": 100,
+      "correct_predictions": 61,
+      "accuracy": 0.61,
+      "confusion_matrix": {
+        "NORMAL_LIKE": {
+          "NORMAL_LIKE": 15,
+          "PNEUMONIA": 35
+        },
+        "PNEUMONIA": {
+          "NORMAL_LIKE": 4,
+          "PNEUMONIA": 46
+        }
+      },
+      "per_class_metrics": {
+        "NORMAL_LIKE": {
+          "precision": 0.7895,
+          "recall": 0.3,
+          "f1_score": 0.4348,
+          "support": 50
+        },
+        "PNEUMONIA": {
+          "precision": 0.5679,
+          "recall": 0.92,
+          "f1_score": 0.7023,
+          "support": 50
+        }
+      }
+    },
+    "brightness_increased": {
+      "sample_count": 100,
+      "correct_predictions": 55,
+      "accuracy": 0.55,
+      "confusion_matrix": {
+        "NORMAL_LIKE": {
+          "NORMAL_LIKE": 7,
+          "PNEUMONIA": 43
+        },
+        "PNEUMONIA": {
+          "NORMAL_LIKE": 2,
+          "PNEUMONIA": 48
+        }
+      },
+      "per_class_metrics": {
+        "NORMAL_LIKE": {
+          "precision": 0.7778,
+          "recall": 0.14,
+          "f1_score": 0.2373,
+          "support": 50
+        },
+        "PNEUMONIA": {
+          "precision": 0.5275,
+          "recall": 0.96,
+          "f1_score": 0.6809,
+          "support": 50
+        }
+      }
+    },
+    "contrast_increased": {
+      "sample_count": 100,
+      "correct_predictions": 55,
+      "accuracy": 0.55,
+      "confusion_matrix": {
+        "NORMAL_LIKE": {
+          "NORMAL_LIKE": 6,
+          "PNEUMONIA": 44
+        },
+        "PNEUMONIA": {
+          "NORMAL_LIKE": 1,
+          "PNEUMONIA": 49
+        }
+      },
+      "per_class_metrics": {
+        "NORMAL_LIKE": {
+          "precision": 0.8571,
+          "recall": 0.12,
+          "f1_score": 0.2105,
+          "support": 50
+        },
+        "PNEUMONIA": {
+          "precision": 0.5269,
+          "recall": 0.98,
+          "f1_score": 0.6853,
+          "support": 50
+        }
+      }
+    },
+    "gaussian_noise": {
+      "sample_count": 100,
+      "correct_predictions": 58,
+      "accuracy": 0.58,
+      "confusion_matrix": {
+        "NORMAL_LIKE": {
+          "NORMAL_LIKE": 12,
+          "PNEUMONIA": 38
+        },
+        "PNEUMONIA": {
+          "NORMAL_LIKE": 4,
+          "PNEUMONIA": 46
+        }
+      },
+      "per_class_metrics": {
+        "NORMAL_LIKE": {
+          "precision": 0.75,
+          "recall": 0.24,
+          "f1_score": 0.3636,
+          "support": 50
+        },
+        "PNEUMONIA": {
+          "precision": 0.5476,
+          "recall": 0.92,
+          "f1_score": 0.6866,
+          "support": 50
+        }
+      }
+    }
+  },
+  "prediction_consistency": {
+    "consistent_images": 87,
+    "evaluated_images": 100,
+    "rate": 0.87
+  },
+  "mean_perturbed_heatmap_similarity": 0.9353,
+  "errors": [],
+  "elapsed_seconds": 243.0,
+  "research_notice": "Research prototype only; not for clinical use. NORMAL_LIKE refers to the CheXpert No Finding=1 label and does not guarantee a healthy patient. The selected sample is small and balanced, so its accuracy is not an estimate of real-world prevalence or clinical performance. Verify checkpoint training provenance and dataset overlap."
+}

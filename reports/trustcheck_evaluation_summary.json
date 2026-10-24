@@ -1,0 +1,167 @@
+{
+  "dataset": "D:\\TrustCheck\\data\\trustcheck_eval_200",
+  "images_requested": 200,
+  "images_evaluated": 200,
+  "images_with_errors": 0,
+  "class_counts": {
+    "NORMAL": 100,
+    "PNEUMONIA": 100
+  },
+  "original_model_metrics": {
+    "sample_count": 200,
+    "correct_predictions": 164,
+    "accuracy": 0.82,
+    "confusion_matrix": {
+      "NORMAL": {
+        "NORMAL": 65,
+        "PNEUMONIA": 35
+      },
+      "PNEUMONIA": {
+        "NORMAL": 1,
+        "PNEUMONIA": 99
+      }
+    },
+    "per_class_metrics": {
+      "NORMAL": {
+        "precision": 0.9848,
+        "recall": 0.65,
+        "f1_score": 0.7831,
+        "support": 100
+      },
+      "PNEUMONIA": {
+        "precision": 0.7388,
+        "recall": 0.99,
+        "f1_score": 0.8462,
+        "support": 100
+      }
+    }
+  },
+  "metrics_by_variation": {
+    "original": {
+      "sample_count": 200,
+      "correct_predictions": 164,
+      "accuracy": 0.82,
+      "confusion_matrix": {
+        "NORMAL": {
+          "NORMAL": 65,
+          "PNEUMONIA": 35
+        },
+        "PNEUMONIA": {
+          "NORMAL": 1,
+          "PNEUMONIA": 99
+        }
+      },
+      "per_class_metrics": {
+        "NORMAL": {
+          "precision": 0.9848,
+          "recall": 0.65,
+          "f1_score": 0.7831,
+          "support": 100
+        },
+        "PNEUMONIA": {
+          "precision": 0.7388,
+          "recall": 0.99,
+          "f1_score": 0.8462,
+          "support": 100
+        }
+      }
+    },
+    "brightness_increased": {
+      "sample_count": 200,
+      "correct_predictions": 166,
+      "accuracy": 0.83,
+      "confusion_matrix": {
+        "NORMAL": {
+          "NORMAL": 67,
+          "PNEUMONIA": 33
+        },
+        "PNEUMONIA": {
+          "NORMAL": 1,
+          "PNEUMONIA": 99
+        }
+      },
+      "per_class_metrics": {
+        "NORMAL": {
+          "precision": 0.9853,
+          "recall": 0.67,
+          "f1_score": 0.7976,
+          "support": 100
+        },
+        "PNEUMONIA": {
+          "precision": 0.75,
+          "recall": 0.99,
+          "f1_score": 0.8534,
+          "support": 100
+        }
+      }
+    },
+    "contrast_increased": {
+      "sample_count": 200,
+      "correct_predictions": 159,
+      "accuracy": 0.795,
+      "confusion_matrix": {
+        "NORMAL": {
+          "NORMAL": 60,
+          "PNEUMONIA": 40
+        },
+        "PNEUMONIA": {
+          "NORMAL": 1,
+          "PNEUMONIA": 99
+        }
+      },
+      "per_class_metrics": {
+        "NORMAL": {
+          "precision": 0.9836,
+          "recall": 0.6,
+          "f1_score": 0.7453,
+          "support": 100
+        },
+        "PNEUMONIA": {
+          "precision": 0.7122,
+          "recall": 0.99,
+          "f1_score": 0.8285,
+          "support": 100
+        }
+      }
+    },
+    "gaussian_noise": {
+      "sample_count": 200,
+      "correct_predictions": 165,
+      "accuracy": 0.825,
+      "confusion_matrix": {
+        "NORMAL": {
+          "NORMAL": 66,
+          "PNEUMONIA": 34
+        },
+        "PNEUMONIA": {
+          "NORMAL": 1,
+          "PNEUMONIA": 99
+        }
+      },
+      "per_class_metrics": {
+        "NORMAL": {
+          "precision": 0.9851,
+          "recall": 0.66,
+          "f1_score": 0.7904,
+          "support": 100
+        },
+        "PNEUMONIA": {
+          "precision": 0.7444,
+          "recall": 0.99,
+          "f1_score": 0.8498,
+          "support": 100
+        }
+      }
+    }
+  },
+  "prediction_consistency": {
+    "consistent_images": 179,
+    "evaluated_images": 200,
+    "rate": 0.895
+  },
+  "mean_perturbed_heatmap_similarity": 0.9759,
+  "gradcam_method": "The original image's predicted class is held fixed as the Grad-CAM target across all perturbations.",
+  "errors": [],
+  "elapsed_seconds": 360.91,
+  "research_notice": "Research prototype only. Results depend on this sample and do not establish clinical reliability. Check possible training/test dataset overlap before making general claims."
+}

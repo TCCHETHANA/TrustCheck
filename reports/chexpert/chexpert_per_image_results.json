@@ -1,0 +1,3202 @@
+[
+  {
+    "relative_path": "train/patient19469/study2/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.887977,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.8879769444465637
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999482274055481
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9995951056480408
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.8647430539131165
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.674,
+      "contrast_increased": 0.7513,
+      "gaussian_noise": 0.9764
+    }
+  },
+  {
+    "relative_path": "train/patient11406/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "NORMAL_LIKE",
+    "original_pneumonia_score": 0.002652,
+    "prediction_consistent": false,
+    "gradcam_target_class": "NORMAL",
+    "predictions": {
+      "original": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.0026515573263168335
+      },
+      "brightness_increased": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.11663621664047241
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.700679361820221
+      },
+      "gaussian_noise": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.21625858545303345
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.8474,
+      "contrast_increased": 0.7776,
+      "gaussian_noise": 0.9185
+    }
+  },
+  {
+    "relative_path": "train/patient51718/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999992,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999921321868896
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999994158744812
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999945163726807
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999948740005493
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9742,
+      "contrast_increased": 0.9522,
+      "gaussian_noise": 0.9941
+    }
+  },
+  {
+    "relative_path": "train/patient13635/study2/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999999,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999991655349731
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999997615814209
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999998807907104
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999998927116394
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9858,
+      "contrast_increased": 0.9609,
+      "gaussian_noise": 0.9946
+    }
+  },
+  {
+    "relative_path": "train/patient12309/study2/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "NORMAL_LIKE",
+    "original_pneumonia_score": 0.000153,
+    "prediction_consistent": true,
+    "gradcam_target_class": "NORMAL",
+    "predictions": {
+      "original": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.00015293085016310215
+      },
+      "brightness_increased": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.0006318905507214367
+      },
+      "contrast_increased": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.004993366077542305
+      },
+      "gaussian_noise": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.0022503617219626904
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9764,
+      "contrast_increased": 0.9726,
+      "gaussian_noise": 0.9913
+    }
+  },
+  {
+    "relative_path": "train/patient43496/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.993231,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9932305812835693
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9933828115463257
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9945052266120911
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.8908643126487732
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9572,
+      "contrast_increased": 0.961,
+      "gaussian_noise": 0.6962
+    }
+  },
+  {
+    "relative_path": "train/patient14755/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999692,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9996917247772217
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9988440275192261
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9997662901878357
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999165415763855
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9761,
+      "contrast_increased": 0.9684,
+      "gaussian_noise": 0.9723
+    }
+  },
+  {
+    "relative_path": "train/patient26826/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "NORMAL_LIKE",
+    "original_pneumonia_score": 0.4503,
+    "prediction_consistent": false,
+    "gradcam_target_class": "NORMAL",
+    "predictions": {
+      "original": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.45030027627944946
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9704746007919312
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9957085847854614
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.7726123332977295
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9663,
+      "contrast_increased": 0.9477,
+      "gaussian_noise": 0.9677
+    }
+  },
+  {
+    "relative_path": "train/patient06154/study2/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999996,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999964237213135
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999961853027344
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999874830245972
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999958276748657
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9912,
+      "contrast_increased": 0.9719,
+      "gaussian_noise": 0.9925
+    }
+  },
+  {
+    "relative_path": "train/patient28561/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.569652,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.5696518421173096
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9933940768241882
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999468982219696
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9252898097038269
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.901,
+      "contrast_increased": 0.9012,
+      "gaussian_noise": 0.974
+    }
+  },
+  {
+    "relative_path": "train/patient19968/study7/view2_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999999,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999992847442627
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999995231628418
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999998807907104
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999940395355225
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9739,
+      "contrast_increased": 0.9826,
+      "gaussian_noise": 0.9949
+    }
+  },
+  {
+    "relative_path": "train/patient28605/study2/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.990632,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9906315803527832
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9549323320388794
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9977486729621887
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9953848719596863
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9847,
+      "contrast_increased": 0.9557,
+      "gaussian_noise": 0.9946
+    }
+  },
+  {
+    "relative_path": "train/patient21894/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.687547,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.6875470876693726
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.8432820439338684
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.8209541440010071
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.8110761642456055
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9408,
+      "contrast_increased": 0.9288,
+      "gaussian_noise": 0.9956
+    }
+  },
+  {
+    "relative_path": "train/patient31369/study2/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999999,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999994039535522
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999996423721313
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999996423721313
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999997615814209
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9908,
+      "contrast_increased": 0.9851,
+      "gaussian_noise": 0.9941
+    }
+  },
+  {
+    "relative_path": "train/patient33590/study2/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.997889,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9978893399238586
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9992756247520447
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9997594952583313
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9989050626754761
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9851,
+      "contrast_increased": 0.9583,
+      "gaussian_noise": 0.9541
+    }
+  },
+  {
+    "relative_path": "train/patient36083/study7/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999995,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999947547912598
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999996542930603
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999997615814209
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999943971633911
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9821,
+      "contrast_increased": 0.9667,
+      "gaussian_noise": 0.9964
+    }
+  },
+  {
+    "relative_path": "train/patient31135/study6/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.846234,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.8462340235710144
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.8755416870117188
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.992181658744812
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.8150058388710022
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9307,
+      "contrast_increased": 0.9602,
+      "gaussian_noise": 0.9978
+    }
+  },
+  {
+    "relative_path": "train/patient24668/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "NORMAL_LIKE",
+    "original_pneumonia_score": 0.0,
+    "prediction_consistent": true,
+    "gradcam_target_class": "NORMAL",
+    "predictions": {
+      "original": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 7.537204282925813e-08
+      },
+      "brightness_increased": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.0003971453115809709
+      },
+      "contrast_increased": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.009141181595623493
+      },
+      "gaussian_noise": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 1.7597103578737006e-05
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.8784,
+      "contrast_increased": 0.8559,
+      "gaussian_noise": 0.9876
+    }
+  },
+  {
+    "relative_path": "train/patient40949/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999997,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999973773956299
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999985694885254
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999984502792358
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999966621398926
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9813,
+      "contrast_increased": 0.9878,
+      "gaussian_noise": 0.9962
+    }
+  },
+  {
+    "relative_path": "train/patient18085/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999954,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999536275863647
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999749660491943
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999843835830688
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999427795410156
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9794,
+      "contrast_increased": 0.9816,
+      "gaussian_noise": 0.9947
+    }
+  },
+  {
+    "relative_path": "train/patient23945/study5/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999995,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999951124191284
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999980926513672
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999992847442627
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999934434890747
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9865,
+      "contrast_increased": 0.9878,
+      "gaussian_noise": 0.9925
+    }
+  },
+  {
+    "relative_path": "train/patient14728/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.858057,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.8580570816993713
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9992545247077942
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9998581409454346
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9891316890716553
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.5989,
+      "contrast_increased": 0.6762,
+      "gaussian_noise": 0.9085
+    }
+  },
+  {
+    "relative_path": "train/patient06040/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999931,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999308586120605
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999547004699707
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999643564224243
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999414682388306
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9806,
+      "contrast_increased": 0.9822,
+      "gaussian_noise": 0.995
+    }
+  },
+  {
+    "relative_path": "train/patient05529/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "NORMAL_LIKE",
+    "original_pneumonia_score": 0.206727,
+    "prediction_consistent": false,
+    "gradcam_target_class": "NORMAL",
+    "predictions": {
+      "original": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.20672744512557983
+      },
+      "brightness_increased": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.3857749402523041
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9540368914604187
+      },
+      "gaussian_noise": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.4758467972278595
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.968,
+      "contrast_increased": 0.9273,
+      "gaussian_noise": 0.9294
+    }
+  },
+  {
+    "relative_path": "train/patient47545/study2/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.95218,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9521796107292175
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9947050213813782
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9978750944137573
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.8927810192108154
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9244,
+      "contrast_increased": 0.9298,
+      "gaussian_noise": 0.976
+    }
+  },
+  {
+    "relative_path": "train/patient11905/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.989281,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9892805218696594
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999198853969574
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9992817044258118
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9980881810188293
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9723,
+      "contrast_increased": 0.9698,
+      "gaussian_noise": 0.9858
+    }
+  },
+  {
+    "relative_path": "train/patient21096/study4/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999998,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999984502792358
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999977350234985
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999980926513672
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999970197677612
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9828,
+      "contrast_increased": 0.9721,
+      "gaussian_noise": 0.9943
+    }
+  },
+  {
+    "relative_path": "train/patient53299/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "NORMAL_LIKE",
+    "original_pneumonia_score": 0.159506,
+    "prediction_consistent": false,
+    "gradcam_target_class": "NORMAL",
+    "predictions": {
+      "original": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.15950563549995422
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.6200222969055176
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.8442942500114441
+      },
+      "gaussian_noise": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.08496478945016861
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9496,
+      "contrast_increased": 0.9762,
+      "gaussian_noise": 0.8726
+    }
+  },
+  {
+    "relative_path": "train/patient32952/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999902,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999023675918579
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999792575836182
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999954104423523
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999176263809204
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9813,
+      "contrast_increased": 0.9836,
+      "gaussian_noise": 0.9886
+    }
+  },
+  {
+    "relative_path": "train/patient08390/study1/view2_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.97017,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9701696634292603
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9961192607879639
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9984166622161865
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9488096237182617
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9666,
+      "contrast_increased": 0.9601,
+      "gaussian_noise": 0.932
+    }
+  },
+  {
+    "relative_path": "train/patient23193/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.98749,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9874902367591858
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9996696710586548
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999186992645264
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9770811200141907
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9256,
+      "contrast_increased": 0.9541,
+      "gaussian_noise": 0.9196
+    }
+  },
+  {
+    "relative_path": "train/patient35813/study4/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.997323,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.997323215007782
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9919631481170654
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9629064798355103
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9969137907028198
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9703,
+      "contrast_increased": 0.9642,
+      "gaussian_noise": 0.9817
+    }
+  },
+  {
+    "relative_path": "train/patient30350/study12/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.99995,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999501705169678
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9996727705001831
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9993665814399719
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9998486042022705
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9928,
+      "contrast_increased": 0.9912,
+      "gaussian_noise": 0.9814
+    }
+  },
+  {
+    "relative_path": "train/patient48248/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999996,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999963045120239
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999954700469971
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999984502792358
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999959468841553
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9929,
+      "contrast_increased": 0.9934,
+      "gaussian_noise": 0.996
+    }
+  },
+  {
+    "relative_path": "train/patient37286/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999387,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9993871450424194
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999175071716309
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999768733978271
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9983288645744324
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9112,
+      "contrast_increased": 0.9464,
+      "gaussian_noise": 0.9805
+    }
+  },
+  {
+    "relative_path": "train/patient55275/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "NORMAL_LIKE",
+    "original_pneumonia_score": 0.186879,
+    "prediction_consistent": false,
+    "gradcam_target_class": "NORMAL",
+    "predictions": {
+      "original": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.18687890470027924
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9218990206718445
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9921901822090149
+      },
+      "gaussian_noise": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.2327880859375
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9447,
+      "contrast_increased": 0.9415,
+      "gaussian_noise": 0.9814
+    }
+  },
+  {
+    "relative_path": "train/patient34098/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999999,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999990463256836
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999984502792358
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999998927116394
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999984502792358
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9897,
+      "contrast_increased": 0.9838,
+      "gaussian_noise": 0.9934
+    }
+  },
+  {
+    "relative_path": "train/patient29615/study9/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999767,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9997668862342834
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9997444748878479
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9997591376304626
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9996919631958008
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9912,
+      "contrast_increased": 0.9881,
+      "gaussian_noise": 0.9982
+    }
+  },
+  {
+    "relative_path": "train/patient30312/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999816,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9998155236244202
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9998236298561096
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999699592590332
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9998476505279541
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9926,
+      "contrast_increased": 0.9735,
+      "gaussian_noise": 0.9895
+    }
+  },
+  {
+    "relative_path": "train/patient27882/study2/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999997,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999973773956299
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999998927116394
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999991655349731
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999966621398926
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9917,
+      "contrast_increased": 0.9848,
+      "gaussian_noise": 0.9969
+    }
+  },
+  {
+    "relative_path": "train/patient51181/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.996383,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9963825941085815
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9956278800964355
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9984117746353149
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9968067407608032
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9306,
+      "contrast_increased": 0.9515,
+      "gaussian_noise": 0.9838
+    }
+  },
+  {
+    "relative_path": "train/patient05036/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.99999,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999895095825195
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999954700469971
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999954700469971
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999951124191284
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9892,
+      "contrast_increased": 0.9849,
+      "gaussian_noise": 0.9945
+    }
+  },
+  {
+    "relative_path": "train/patient26402/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999079,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9990789890289307
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9997599720954895
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999343156814575
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9992332458496094
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9887,
+      "contrast_increased": 0.9729,
+      "gaussian_noise": 0.9519
+    }
+  },
+  {
+    "relative_path": "train/patient41172/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "NORMAL_LIKE",
+    "original_pneumonia_score": 0.093891,
+    "prediction_consistent": false,
+    "gradcam_target_class": "NORMAL",
+    "predictions": {
+      "original": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.09389112889766693
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9709593057632446
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9306187629699707
+      },
+      "gaussian_noise": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.19834910333156586
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.8017,
+      "contrast_increased": 0.8393,
+      "gaussian_noise": 0.9768
+    }
+  },
+  {
+    "relative_path": "train/patient14392/study3/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999992,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999915361404419
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999949932098389
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999985694885254
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999438524246216
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9762,
+      "contrast_increased": 0.9908,
+      "gaussian_noise": 0.9975
+    }
+  },
+  {
+    "relative_path": "train/patient29435/study15/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999998,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999997615814209
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999984502792358
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999984502792358
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999995231628418
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9908,
+      "contrast_increased": 0.9927,
+      "gaussian_noise": 0.9966
+    }
+  },
+  {
+    "relative_path": "train/patient28824/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "NORMAL_LIKE",
+    "original_pneumonia_score": 0.372552,
+    "prediction_consistent": false,
+    "gradcam_target_class": "NORMAL",
+    "predictions": {
+      "original": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.3725520372390747
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.8015519380569458
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9888032078742981
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.5651628971099854
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9586,
+      "contrast_increased": 0.848,
+      "gaussian_noise": 0.9951
+    }
+  },
+  {
+    "relative_path": "train/patient53053/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999991,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999914169311523
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999942779541016
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999955892562866
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999927282333374
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9839,
+      "contrast_increased": 0.9869,
+      "gaussian_noise": 0.9971
+    }
+  },
+  {
+    "relative_path": "train/patient50638/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.99993,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999297857284546
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9997532963752747
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9996083378791809
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9993935823440552
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9808,
+      "contrast_increased": 0.9785,
+      "gaussian_noise": 0.9639
+    }
+  },
+  {
+    "relative_path": "train/patient08575/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "NORMAL_LIKE",
+    "original_pneumonia_score": 0.010282,
+    "prediction_consistent": false,
+    "gradcam_target_class": "NORMAL",
+    "predictions": {
+      "original": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.010282030329108238
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.6249411106109619
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9012691974639893
+      },
+      "gaussian_noise": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.02542755752801895
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9213,
+      "contrast_increased": 0.8994,
+      "gaussian_noise": 0.9777
+    }
+  },
+  {
+    "relative_path": "train/patient38541/study9/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999994,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999936819076538
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999983310699463
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999985694885254
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999953508377075
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9953,
+      "contrast_increased": 0.9893,
+      "gaussian_noise": 0.9968
+    }
+  },
+  {
+    "relative_path": "train/patient49133/study7/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999996,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999955892562866
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999991655349731
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999997615814209
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999985694885254
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9852,
+      "contrast_increased": 0.9834,
+      "gaussian_noise": 0.9966
+    }
+  },
+  {
+    "relative_path": "train/patient55661/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999944,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999442100524902
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999746084213257
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999710321426392
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999094009399414
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9822,
+      "contrast_increased": 0.9768,
+      "gaussian_noise": 0.9951
+    }
+  },
+  {
+    "relative_path": "train/patient10388/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999743,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9997429251670837
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999843835830688
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999877214431763
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9996165037155151
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9172,
+      "contrast_increased": 0.9408,
+      "gaussian_noise": 0.9921
+    }
+  },
+  {
+    "relative_path": "train/patient37322/study19/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 1.0,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999998807907104
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999998807907104
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999997615814209
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999997615814209
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9949,
+      "contrast_increased": 0.9866,
+      "gaussian_noise": 0.9985
+    }
+  },
+  {
+    "relative_path": "train/patient07316/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "NORMAL_LIKE",
+    "original_pneumonia_score": 0.120735,
+    "prediction_consistent": true,
+    "gradcam_target_class": "NORMAL",
+    "predictions": {
+      "original": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.12073470652103424
+      },
+      "brightness_increased": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.13291777670383453
+      },
+      "contrast_increased": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.25244101881980896
+      },
+      "gaussian_noise": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.10050129145383835
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.8467,
+      "contrast_increased": 0.8599,
+      "gaussian_noise": 0.9741
+    }
+  },
+  {
+    "relative_path": "train/patient30986/study11/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999945,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999944806098938
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999333620071411
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999802112579346
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999914288520813
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9857,
+      "contrast_increased": 0.9818,
+      "gaussian_noise": 0.9948
+    }
+  },
+  {
+    "relative_path": "train/patient60908/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999936,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999358654022217
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999698400497437
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9998881816864014
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999695897102356
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9712,
+      "contrast_increased": 0.951,
+      "gaussian_noise": 0.9777
+    }
+  },
+  {
+    "relative_path": "train/patient27645/study7/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 1.0,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999995231628418
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999995231628418
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999996423721313
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999977350234985
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9908,
+      "contrast_increased": 0.9831,
+      "gaussian_noise": 0.993
+    }
+  },
+  {
+    "relative_path": "train/patient03731/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "NORMAL_LIKE",
+    "original_pneumonia_score": 0.002015,
+    "prediction_consistent": true,
+    "gradcam_target_class": "NORMAL",
+    "predictions": {
+      "original": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.0020148465409874916
+      },
+      "brightness_increased": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.07335332781076431
+      },
+      "contrast_increased": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.06948404014110565
+      },
+      "gaussian_noise": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.0028251586481928825
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.8354,
+      "contrast_increased": 0.8113,
+      "gaussian_noise": 0.9757
+    }
+  },
+  {
+    "relative_path": "train/patient11019/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999997,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999972581863403
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999998927116394
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999994158744812
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999945163726807
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9861,
+      "contrast_increased": 0.9608,
+      "gaussian_noise": 0.9946
+    }
+  },
+  {
+    "relative_path": "train/patient16654/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 1.0,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999996423721313
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999988079071045
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999994039535522
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999991655349731
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9891,
+      "contrast_increased": 0.9864,
+      "gaussian_noise": 0.9956
+    }
+  },
+  {
+    "relative_path": "train/patient18630/study3/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.962517,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9625170230865479
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9932297468185425
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9986534118652344
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9850243330001831
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9685,
+      "contrast_increased": 0.9444,
+      "gaussian_noise": 0.9521
+    }
+  },
+  {
+    "relative_path": "train/patient42996/study3/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999998,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999978542327881
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999953508377075
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999973773956299
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999980926513672
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9724,
+      "contrast_increased": 0.9929,
+      "gaussian_noise": 0.9975
+    }
+  },
+  {
+    "relative_path": "train/patient29882/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "NORMAL_LIKE",
+    "original_pneumonia_score": 0.140717,
+    "prediction_consistent": false,
+    "gradcam_target_class": "NORMAL",
+    "predictions": {
+      "original": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.1407172679901123
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.8168421387672424
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9727716445922852
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.508811891078949
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.7661,
+      "contrast_increased": 0.7395,
+      "gaussian_noise": 0.9551
+    }
+  },
+  {
+    "relative_path": "train/patient40496/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999793,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9997925162315369
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999610960483551
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9998910427093506
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9995800852775574
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9929,
+      "contrast_increased": 0.9799,
+      "gaussian_noise": 0.9834
+    }
+  },
+  {
+    "relative_path": "train/patient03650/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.998528,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9985277652740479
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9987296462059021
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9997078776359558
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9996073842048645
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.986,
+      "contrast_increased": 0.9873,
+      "gaussian_noise": 0.9697
+    }
+  },
+  {
+    "relative_path": "train/patient12295/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.990862,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9908623695373535
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9968950748443604
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9960564374923706
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9949855804443359
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9667,
+      "contrast_increased": 0.9591,
+      "gaussian_noise": 0.9905
+    }
+  },
+  {
+    "relative_path": "train/patient20196/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "NORMAL_LIKE",
+    "original_pneumonia_score": 7e-06,
+    "prediction_consistent": true,
+    "gradcam_target_class": "NORMAL",
+    "predictions": {
+      "original": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 6.54149107504054e-06
+      },
+      "brightness_increased": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.0031026836950331926
+      },
+      "contrast_increased": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.0034338959958404303
+      },
+      "gaussian_noise": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 9.419645357411355e-05
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.869,
+      "contrast_increased": 0.8576,
+      "gaussian_noise": 0.9675
+    }
+  },
+  {
+    "relative_path": "train/patient31208/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.991941,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9919413328170776
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9933551549911499
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9995449185371399
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9923593401908875
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9425,
+      "contrast_increased": 0.901,
+      "gaussian_noise": 0.9818
+    }
+  },
+  {
+    "relative_path": "train/patient59303/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999993,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999992847442627
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999903440475464
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999672174453735
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999918937683105
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9876,
+      "contrast_increased": 0.972,
+      "gaussian_noise": 0.9977
+    }
+  },
+  {
+    "relative_path": "train/patient43708/study16/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999998,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999978542327881
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999951124191284
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999994158744812
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999963045120239
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9964,
+      "contrast_increased": 0.9968,
+      "gaussian_noise": 0.9941
+    }
+  },
+  {
+    "relative_path": "train/patient23909/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "NORMAL_LIKE",
+    "original_pneumonia_score": 0.001947,
+    "prediction_consistent": false,
+    "gradcam_target_class": "NORMAL",
+    "predictions": {
+      "original": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.001946557778865099
+      },
+      "brightness_increased": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.1356397420167923
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.5470725893974304
+      },
+      "gaussian_noise": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.0034346634056419134
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9295,
+      "contrast_increased": 0.8932,
+      "gaussian_noise": 0.9919
+    }
+  },
+  {
+    "relative_path": "train/patient26680/study3/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999983,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999831914901733
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999324083328247
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999873638153076
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999896287918091
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9777,
+      "contrast_increased": 0.9851,
+      "gaussian_noise": 0.9948
+    }
+  },
+  {
+    "relative_path": "train/patient03443/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.99993,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999295473098755
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999955892562866
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999654293060303
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9998679161071777
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9396,
+      "contrast_increased": 0.9458,
+      "gaussian_noise": 0.9934
+    }
+  },
+  {
+    "relative_path": "train/patient42448/study2/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 1.0,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999995231628418
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999996423721313
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999991655349731
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999990463256836
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9599,
+      "contrast_increased": 0.9713,
+      "gaussian_noise": 0.9945
+    }
+  },
+  {
+    "relative_path": "train/patient40357/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999945,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999450445175171
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999369382858276
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9998672008514404
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999325275421143
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9946,
+      "contrast_increased": 0.9939,
+      "gaussian_noise": 0.9981
+    }
+  },
+  {
+    "relative_path": "train/patient00326/study10/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999999,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999988079071045
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999998927116394
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999990463256836
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999963045120239
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9945,
+      "contrast_increased": 0.9881,
+      "gaussian_noise": 0.9972
+    }
+  },
+  {
+    "relative_path": "train/patient31547/study4/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "NORMAL_LIKE",
+    "original_pneumonia_score": 0.027079,
+    "prediction_consistent": false,
+    "gradcam_target_class": "NORMAL",
+    "predictions": {
+      "original": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.02707882970571518
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.8237935900688171
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9828718900680542
+      },
+      "gaussian_noise": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.015100558288395405
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.7333,
+      "contrast_increased": 0.5489,
+      "gaussian_noise": 0.9575
+    }
+  },
+  {
+    "relative_path": "train/patient50362/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999944,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999444484710693
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999983549118042
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999987006187439
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999436140060425
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9756,
+      "contrast_increased": 0.9622,
+      "gaussian_noise": 0.9939
+    }
+  },
+  {
+    "relative_path": "train/patient08505/study2/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "NORMAL_LIKE",
+    "original_pneumonia_score": 0.000768,
+    "prediction_consistent": false,
+    "gradcam_target_class": "NORMAL",
+    "predictions": {
+      "original": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.0007675713859498501
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.8419573307037354
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9644516706466675
+      },
+      "gaussian_noise": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.004837270360440016
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.5886,
+      "contrast_increased": 0.5672,
+      "gaussian_noise": 0.988
+    }
+  },
+  {
+    "relative_path": "train/patient15671/study8/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999988,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999884366989136
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999980092048645
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999988317489624
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999960660934448
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9918,
+      "contrast_increased": 0.9949,
+      "gaussian_noise": 0.9975
+    }
+  },
+  {
+    "relative_path": "train/patient31422/study5/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999992,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999915361404419
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999933242797852
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999942779541016
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999929666519165
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9908,
+      "contrast_increased": 0.9768,
+      "gaussian_noise": 0.999
+    }
+  },
+  {
+    "relative_path": "train/patient39799/study5/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 1.0,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999996423721313
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999998927116394
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999997615814209
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999997615814209
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9936,
+      "contrast_increased": 0.9819,
+      "gaussian_noise": 0.998
+    }
+  },
+  {
+    "relative_path": "train/patient00473/study4/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.9999,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999001026153564
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999580383300781
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999351501464844
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999444484710693
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9838,
+      "contrast_increased": 0.978,
+      "gaussian_noise": 0.9893
+    }
+  },
+  {
+    "relative_path": "train/patient19962/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.99993,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999299049377441
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999716281890869
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999871253967285
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9985931515693665
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.974,
+      "contrast_increased": 0.9633,
+      "gaussian_noise": 0.97
+    }
+  },
+  {
+    "relative_path": "train/patient39895/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.992528,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9925284385681152
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999477863311768
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999932050704956
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9733617901802063
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.79,
+      "contrast_increased": 0.8567,
+      "gaussian_noise": 0.9059
+    }
+  },
+  {
+    "relative_path": "train/patient41346/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.952438,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9524375200271606
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9937760829925537
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9959883093833923
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9311734437942505
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9654,
+      "contrast_increased": 0.9557,
+      "gaussian_noise": 0.9974
+    }
+  },
+  {
+    "relative_path": "train/patient24584/study2/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999996,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999958276748657
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999997615814209
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999997615814209
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999953508377075
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9938,
+      "contrast_increased": 0.9722,
+      "gaussian_noise": 0.9993
+    }
+  },
+  {
+    "relative_path": "train/patient26880/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.983083,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9830827713012695
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9996397495269775
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999700784683228
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9877195358276367
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.8253,
+      "contrast_increased": 0.8294,
+      "gaussian_noise": 0.9974
+    }
+  },
+  {
+    "relative_path": "train/patient47178/study3/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.998997,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.998997151851654
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999469518661499
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999921321868896
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9992820620536804
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9171,
+      "contrast_increased": 0.918,
+      "gaussian_noise": 0.993
+    }
+  },
+  {
+    "relative_path": "train/patient08910/study2/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.994357,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.994357168674469
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9997441172599792
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9996767044067383
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9938170313835144
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9092,
+      "contrast_increased": 0.9408,
+      "gaussian_noise": 0.9689
+    }
+  },
+  {
+    "relative_path": "train/patient12267/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "NORMAL_LIKE",
+    "original_pneumonia_score": 0.000119,
+    "prediction_consistent": true,
+    "gradcam_target_class": "NORMAL",
+    "predictions": {
+      "original": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.00011899317178176716
+      },
+      "brightness_increased": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.001552013331092894
+      },
+      "contrast_increased": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.10081076622009277
+      },
+      "gaussian_noise": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.0008143209270201623
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9494,
+      "contrast_increased": 0.9524,
+      "gaussian_noise": 0.9928
+    }
+  },
+  {
+    "relative_path": "train/patient02914/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999837,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9998373985290527
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999862909317017
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999892711639404
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999544620513916
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9178,
+      "contrast_increased": 0.9341,
+      "gaussian_noise": 0.9811
+    }
+  },
+  {
+    "relative_path": "train/patient04595/study2/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999986,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999862909317017
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999912977218628
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999997615814209
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9993547797203064
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9878,
+      "contrast_increased": 0.9917,
+      "gaussian_noise": 0.9779
+    }
+  },
+  {
+    "relative_path": "train/patient57604/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 1.0,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999995231628418
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999998927116394
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999990463256836
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999985694885254
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9768,
+      "contrast_increased": 0.9814,
+      "gaussian_noise": 0.9926
+    }
+  },
+  {
+    "relative_path": "train/patient19698/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.999883,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999882698059082
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999828338623047
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9999918937683105
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.999345600605011
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9513,
+      "contrast_increased": 0.9549,
+      "gaussian_noise": 0.9799
+    }
+  },
+  {
+    "relative_path": "train/patient34390/study1/view1_frontal.jpg",
+    "actual_label": "PNEUMONIA",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.819303,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.8193032145500183
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9968252182006836
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.992480993270874
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9743496775627136
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9768,
+      "contrast_increased": 0.9769,
+      "gaussian_noise": 0.9569
+    }
+  },
+  {
+    "relative_path": "train/patient29114/study1/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "NORMAL_LIKE",
+    "original_pneumonia_score": 0.000806,
+    "prediction_consistent": false,
+    "gradcam_target_class": "NORMAL",
+    "predictions": {
+      "original": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.0008063563727773726
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.704172670841217
+      },
+      "contrast_increased": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.3215571641921997
+      },
+      "gaussian_noise": {
+        "prediction": "NORMAL_LIKE",
+        "pneumonia_score": 0.0033740235958248377
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9608,
+      "contrast_increased": 0.9626,
+      "gaussian_noise": 0.9924
+    }
+  },
+  {
+    "relative_path": "train/patient17129/study3/view1_frontal.jpg",
+    "actual_label": "NORMAL_LIKE",
+    "original_prediction": "PNEUMONIA",
+    "original_pneumonia_score": 0.992223,
+    "prediction_consistent": true,
+    "gradcam_target_class": "PNEUMONIA",
+    "predictions": {
+      "original": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9922234416007996
+      },
+      "brightness_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9836891293525696
+      },
+      "contrast_increased": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9529747366905212
+      },
+      "gaussian_noise": {
+        "prediction": "PNEUMONIA",
+        "pneumonia_score": 0.9744981527328491
+      }
+    },
+    "heatmap_similarity_to_original": {
+      "original": 1.0,
+      "brightness_increased": 0.9422,
+      "contrast_increased": 0.8211,
+      "gaussian_noise": 0.9802
+    }
+  }
+]

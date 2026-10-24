@@ -1,0 +1,40 @@
+# Python
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+
+# Virtual environments
+**/.venv/
+**/venv/
+**/env/
+
+# Frontend dependencies
+**/node_modules/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Model weights and caches
+models/
+**/.cache/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+
+# Raw datasets
+data/
+
+# Generated per-image evaluation results
+reports/trustcheck_per_image_results.json
+reports/*backup*/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
